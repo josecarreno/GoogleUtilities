@@ -63,10 +63,10 @@ let package = Package(
     ),
   ],
   dependencies: [
-    .package(name: "Promises", url: "https://github.com/google/promises.git", "1.2.8" ..< "3.0.0"),
+    .package(name: "Promises", url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/google/promises.git", "1.2.8" ..< "3.0.0"),
     .package(
       name: "OCMock",
-      url: "https://github.com/firebase/ocmock.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/firebase/ocmock.git",
       .revision("7291762d3551c5c7e31c49cce40a0e391a52e889")
     ),
   ],
